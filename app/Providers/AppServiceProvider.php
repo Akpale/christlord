@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
+use Illuminate\Routing\urlGenerator;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Pagination\Paginator;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,20 +13,29 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+
+    public function boot(urlGenerator $url)
     {
-        //
+        if (env('REDIRECT_HTTPS')) {
+            $url->formatScheme('https');
+        }
     }
+
+
+    
 
     /**
      * Bootstrap any application services.
      *
      * @return void
      */
-    public function boot()
+
+    public function register()
     {
         //
-        Schema::defaultStringLength(191);
-        Paginator::useBootstrap();
+        if (env('REDIRECT_HTTPS')) {
+            $this->app['request']->server->set('HTTPS',true);
+        }
     }
+    
 }
