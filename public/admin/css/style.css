@@ -1,0 +1,136 @@
+/* Your custom styles */
+.avatar-pic {
+width: 150px;
+}
+
+.file-field.medium .file-path-wrapper {
+height: 3rem; }
+.file-field.medium .file-path-wrapper .file-path {
+height: 2.8rem; }
+
+.file-field.big-2 .file-path-wrapper {
+height: 3.7rem; }
+.file-field.big-2 .file-path-wrapper .file-path {
+height: 3.5rem; }
+
+div.error{
+        color: #f55;
+    }
+
+  .user-image {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+ #cl {
+ border-width:3px;
+ border-style:double;
+ border-color:white;
+ }
+
+ #user {
+ border-width:1px;
+ border-style:solid;
+ border-color:white;
+ line-height: 300%;
+ }
+
+ #menu{
+ font-size:large;
+ }
+
+ #statut{
+    width: 80px;
+    height: 20px;
+    border-radius: 25%;
+    background: silver;
+ }
+
+ #tcl{
+ font-weight:bold;
+ font-size:x-large;
+ font-family:Verdana,sans-serif;
+ }
+
+ #card{
+  
+  margin:auto;
+  height:700px;
+}
+
+#text{
+  
+  margin:auto;
+  height:220px;
+
+}
+
+
+ #data{
+  
+ text-align: center;
+ vertical-align: center;
+ font-size: 50px;
+}
+
+#data1{
+  
+ text-align: center;
+ vertical-align: center;
+ font-size: 30px;
+}
+
+#dept{
+ font-size: 30px;
+ border-width:3px;
+ border-style:groove;
+}
+
+#nb{
+  
+ text-align: center;
+ font-size: 20px;
+}
+
+#far{
+  
+  width: 40px;
+  height: 60px;
+}
+
+.form-elegant .font-small {
+font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+-webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+-webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.ul.stepper.step.active:before { content: '\f00c'; font-size: 1rem; }
+
+.ul.stepper.step.wrong:before { font-family: 'Font Awesome 5 free'; font-weight: 900; }
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+
